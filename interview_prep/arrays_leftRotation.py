@@ -37,7 +37,7 @@ def rotLeft(a, d):
 
 # MORE EFFICIENT WAY
 def rotLeft(a, d):
-    return a[d:] + a[:d]  # splice the list from at index d, take second half and add it to the first half
+    return a[d:] + a[:d]  # splice the list at index d, take second half and add it to the first half
      
 
 if __name__ == '__main__':
